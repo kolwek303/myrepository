@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё хобби - Авторемонт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ШАПКА -->
+    <header>
+        <h1>Алексей. Ремонт, обслуживание и по желанию уничтожение автомобиля
+        </h1>
+        <nav>
+            <a href="#about">Обо мне</a>
+            <a href="#projects">Мои работы</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Почему я люблю копаться в авто</h2>
+            <p>Мне нравится ремонтировать машины. С самого детства отец брал меня в гараж, чтобы починить автомобиль или сделать его лучше. Позже это переросло в настоящее хобби: при любой возможности мы с братом ездили в гараж и занимались его машиной. Меня захватывает сам процесс ремонта, работа с инструментом, оценка финального результата и радость от того, что всё получилось. То чувство, когда автомобиль, который еще вчера не мог сдвинуться с места, сейчас заведен и работает идеально, просто не передать словами.</p>
+        </section>
+
+        <!-- Секция 2 (Галерея) -->
+        <section id="projects">
+            <h2>Мои последние проекты</h2>
+            
+        <div class="projects-grid">
+            
+            <article>
+                <img src="img/lavrik.jpg" alt="Nissan Lauerel C35 (Крокодейл)">
+                <h3>Nissan Lauerel C35 (Крокодейл)</h3>
+                <p>(Прозвище оправданно размерами и расходом топлива) Перечеслять можно очень долго что было сделано. В основном перебрали электрику, довели двигатель до идеала. Заменили торпеду в салоне. Починили ходовую. Заменили топливную систему. Довели машину до идеала технически. в планах только аксессуарные работы (перекраска, моддинги, замена фар, замена обвесов).</p>
+            </article>
+
+            <article>
+                <img src="img/xtrail.jpg" alt="Nissan X-trail (Беляш)">
+                <h3>Nissan X-trail (Беляш)</h3>
+                <p>(Прозвище оправданно цветом и... полненькой формой кузова) В этой машине были зменены стойки, шаровые в общем ходовая часть. Заменили АКПП. Были аксессуарные дороботки</p>
+            </article>
+
+            <article>
+                <img src="img/rnesskafila.jpg" alt="NissanR-Nessa">
+                <h3>Nissan R-Nessa (слева)</h3>
+                <p>В этой машине было очень много сделано. замена абсолютно всей ходовки, замена двигателя и акпп. Аксессуарные работы. Полностью доведена до идела</p>
+            </article>
+
+            <article>
+                <img src="img/rnesskafila.jpg" alt="Toyota Fielder">
+                <h3>Toyota Fielder (справа)</h3>
+                <p>Эта машина надежная, за все время в ней ремонтировалась только ходовая часть (немного), замена двери багажника, замен топливной системы.</p>
+            </article>
+
+            <article>
+                <img src="img/сгоревшаяnissangloriay33.jpg" alt="сгоревшая nissangloria y33">
+                <h3>ВЫ ДУМАЛИ Я ШУЧУЧ ПРО УНИЧТОЖЕНИЕ? >:)</h3>
+                <p>Ладно она просто сгорела (( </p>
+            </article>
+
+        </div>
+        </section>
+
+        <section id="contact">
+            <h2>Напиши мне если осмелился попросить меня починить или нашел ошибко</h2>
+            <form>
+                <label for="name">Имя</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- ПОДВАЛ -->
+    <footer>
+
+        <p>&copy; 2026 Алексей. Обновлено: <span id="update-date"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
